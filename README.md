@@ -6,10 +6,10 @@ Developed a Java-based Stock Management System using OOP and GUI, featuring user
 - **OOP Principles:**  
   - **Encapsulation & Single Responsibility:** each class has one clear purpose  
   - **Open/Closed Principle:** easy to extend with new product types  
-  - **Polymorphism:** `Product` is an abstract base; `Refrigerator`, `TV`, and `Air Fryer` extend it  
+  - **Polymorphism:** `Product` is an abstract base; `Refrigerator`, `TV`, and `AirFryer` extend it  
 - **Core Classes:**  
   - `Product` (abstract): common fields (item number, name, price, quantity, status) and methods  
-  - `Refrigerator` / `TV` / `Air Fryer`: extend `Product` with specific attributes (e.g. capacity, door design; screen type, resolution) and override `toString()`  
+  - `Refrigerator` / `TV` / `AirFryer`: extend `Product` with specific attributes (e.g. capacity, door design; screen type, resolution) and override `toString()`  
   - `UserInfo`: prompts for user name, generates a user ID (first initial + surname or “guest”)  
   - `StockManagement`: application driver (menu loop, static helpers for input validation, product array management)
   
